@@ -1,0 +1,98 @@
+{
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "workbench.colorTheme": "Night Owl",
+  "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.fontFamily": "FiraCode-Retina, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 12,
+  "editor.rulers": [80],
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "inline",
+  "editor.detectIndentation": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 80,
+  "files.defaultLanguage": "{activeEditorLanguage}",
+  "editor.wordWrap": "off",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.renderWhitespace": "boundary",
+  // javascript
+  "npm.runSilent": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.gh-pages": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "terminal.integrated.inheritEnv": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // python
+  "[python]": {
+    "editor.rulers": [79, 120]
+  },
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": ["--max-line-length=79"],
+
+  "python.pythonPath": "/Users/lucashenrique/anaconda3/bin/python",
+  "python.languageServer": "Pylance",
+  // leetcode
+  "leetcode.workspaceFolder": "/Users/lucashenrique/Projects/leetcode-solutions/problems",
+  "leetcode.defaultLanguage": "python3",
+  "editor.formatOnPaste": true,
+  "leetcode.hint.commentDescription": false,
+  "leetcode.hint.configWebviewMarkdown": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<esc>"]
+    }
+  ],
+  "todo-tree.tree.showScanModeButton": false,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-"
+}
